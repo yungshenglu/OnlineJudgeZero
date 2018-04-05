@@ -1,4 +1,4 @@
-#ZOJ-d226 - Back to High School Physics
+# ZOJ-d226 - Back to High School Physics
 
 某一個粒子有一初速度和等加速度。假設在 t 秒後此粒子的速度為 v ，請問這個粒子在 2t 秒後所經過的位移是多少。
 
