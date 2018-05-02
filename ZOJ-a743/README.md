@@ -14,7 +14,7 @@ As Leporello records all the “beauties” Don Giovanni “loved” in chronolo
 ---
 ## Input
 
-The input consists of at most 2000 lines. The first line contains a number n, indicating that there will be n more lines. Each following line, with at most 75 characters, contains a country (the first word) and the name of a woman (the rest of the words in the line) Giovanni loved. You may assume that the name of all countries consist of only one word.
+The input consists of at most $2000$ lines. The first line contains a number n, indicating that there will be n more lines. Each following line, with at most $75$ characters, contains a country (the first word) and the name of a woman (the rest of the words in the line) Giovanni loved. You may assume that the name of all countries consist of only one word.
 
 ---
 ## Output
