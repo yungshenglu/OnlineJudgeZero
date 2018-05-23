@@ -22,12 +22,7 @@ int main(void) {
             if (det == 0)
                 printf("Two same roots x=%d\n", int(root1));
             else {
-                double root2 = (-b - sqrt(det)) / (2 * a);
-
-                // Let the largest root be first
-                if (root2 > root1)
-                    swap(root1, root2);
-                
+                double root2 = (-b - sqrt(det)) / (2 * a);                
                 printf("Two different roots x1=%d , x2=%d\n", int(root1), int(root2));
             }
         }
