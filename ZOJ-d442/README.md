@@ -25,3 +25,12 @@
 4
 13
 ```
+
+---
+## Sample Output
+
+```
+Case #1: 7 is a Happy number.
+Case #2: 4 is an Unhappy number.
+Case #3: 13 is a Happy number. 
+```
