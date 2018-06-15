@@ -19,7 +19,7 @@ int main(void) {
         while (num[end] == '0')
             --end;
 
-        // When all the input are zeros
+        // When all the input are zeros and print the result
         if (start > end)
             printf("0\n");
         else {
