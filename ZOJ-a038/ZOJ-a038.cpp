@@ -1,18 +1,32 @@
 #include <cstdio>
 #include <iostream>
+#include <algorithm>
+#include <string>
 
 using namespace std;
 
 int main(void) {
-    int N;
+    string num;
 
-    while (scanf("%d", &N) != EOF) {
-        while (N > 0) {
-            // Reverse the input number
-            printf("%d", N % 10);
-            N /= 10;
+    while (cin >> num) {
+        int start = 0, end = num.length() - 1;
+
+        // Remove the continuous zero at the first
+        while (num[start] == '0')
+            ++start;
+        
+        // Remove the continuous zero at the end
+        while (num[end] == '0')
+            --end;
+
+        // When all the input are zeros
+        if (start > end)
+            printf("0\n");
+        else {
+            for (int i = end; i >= start; --i)
+                printf("%c", num[i]);
+            printf("\n");
         }
-        printf("\n");
     }
 
     return 0;
