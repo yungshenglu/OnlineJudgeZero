@@ -8,7 +8,7 @@ int main(void) {
 
     while (scanf("%d", &n) != EOF) {
         // Print the result
-        printf("%d\n", (2 + (n - 1) * n));
+        printf("%d\n", ((n - 1) * n) + 2);
     }
 
     return 0;
