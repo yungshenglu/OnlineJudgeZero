@@ -27,9 +27,7 @@ int main(void) {
             if (isPrime(i))
                 ++count;
         }
-
         count = (a == 1) ? (--count) : count;
-
         
         // Print the result
         printf("%d\n", count);
