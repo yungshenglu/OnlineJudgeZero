@@ -22,10 +22,10 @@
     * 例：T112663836
 
         $$
-        \begin{align*}
+        \begin{align}
         2 + 7 \times 9 + 1 \times 8 + 1 \times 7 + 2 \times 6 + 6 \times 5 + 6 \times 4 + 3 \times 3 + 8 \times 2 + 3 \times 1 + 6 = 180 \\
         180 / 10 = 18
-        \end{align*}
+        \end{align}
         $$
         
         除以 $10$ 整除，因此為 `real`。
