@@ -47,12 +47,7 @@ int main(void) {
         // Check the input is Sudoku
         bool isSudoku = true;
         for (int i = 0; i < MAX; ++i) {
-            if (row[i].size() != MAX || col[i].size() != MAX) {
-                isSudoku = false;
-                break;
-            }
-
-            if (block[i / 3][i % 3].size() != MAX) {
+            if (row[i].size() != MAX || col[i].size() != MAX || block[i / 3][i % 3].size() != MAX) {
                 isSudoku = false;
                 break;
             }
