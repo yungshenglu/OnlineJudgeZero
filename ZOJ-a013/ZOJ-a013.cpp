@@ -9,7 +9,7 @@
 using namespace std;
 
 const string roman = "MDCLXVI";
-const int number[] = { 1000, 500, 100, 50, 10, 5, 1 };
+const int number[MAX] = { 1000, 500, 100, 50, 10, 5, 1 };
 
 // Transfer roman to integer number
 int roman2number(string str) {
@@ -41,7 +41,7 @@ string number2roman(int num) {
             result.insert(0, roman, i, 1);
         }
         else {
-            tmp *= pow(10, (6 - i) / 2);
+            tmp *= pow(10, ((MAX - 1) - i) / 2);
             while (i > 0 && tmp >= number[i - 1]) {
                 tmp -= number[i - 1];
                 key = 1;
