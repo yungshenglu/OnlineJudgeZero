@@ -1,4 +1,4 @@
-# Online Judge Zero (ZOJ)
+# Zero Online Judge (ZOJ)
 
 ![](res/zero.png)
 
